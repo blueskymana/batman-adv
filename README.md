@@ -1,7 +1,9 @@
 ###Basic compile steps:
 ---
 1. Configuration makefile
-    You must config the makefile before run make command. There fore env variables to be configed:
+
+    You must config the makefile before run make command. There are four env variables to be configed:
+
     * ARCH
     * KERNELPATH
     * CROSS_COMPILE
@@ -20,4 +22,4 @@
     for example:
 	`make batadv1-c`
 
-    it will clean the batadv1 project.
+    It will clean the batadv1 project.
